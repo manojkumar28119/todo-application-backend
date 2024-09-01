@@ -37,8 +37,8 @@ const initializeDbAndServer = async () => {
 
 
 
-    app.listen(3000, () =>
-      console.log("Server Running at http://localhost:3000/")
+    app.listen(4001, () =>
+      console.log("Server Running at http://localhost:4001/")
     );
   } catch (error) {
     console.log(`DB Error: ${error.message}`);
